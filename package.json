@@ -1,0 +1,18 @@
+{
+    "name": "streaming-folder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"No Tests\""
+    },
+    "author": "Victoria Ueda",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.8.1",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.0"
+    }
+}
